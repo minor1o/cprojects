@@ -1,0 +1,9 @@
+﻿  Source.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\xmemory(2040,1): error C2664: "bool (int &)": невозможно преобразовать аргумент 1 из "std::vector<int,std::allocator<int>>" в "int &"
+C:\Users\Minor\source\repos\23.1.21\Source.cpp(28): message : выполняется компиляция ссылки на экземпляр шаблон функции "_FwdIt std::remove_if<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,bool(__cdecl *)(int &)>(_FwdIt,const _FwdIt,_Pr)"
+          with
+          [
+              _FwdIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<std::vector<int,std::allocator<int>>>>>,
+              _Ty=std::vector<int,std::allocator<int>>,
+              _Pr=bool (__cdecl *)(int &)
+          ]
